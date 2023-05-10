@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  text-transform: capitalize;
+}
+
+.creater-Box {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #EA005E;
+}
+
+#form {
+  padding-top: 3rem;
+  width: 80%;
+  margin: auto;
+  display: grid;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
+}
+#form div {
+  width: 50rem;
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  justify-content: start;
+  align-items: center;
+}
+#form div label {
+  width: 20rem;
+}
+
+select {
+  font-size: 1.5rem !important;
+  font-weight: bold !important;
+  border-radius: 2rem !important;
+}
+select option {
+  font-weight: bold;
+}
+
+[type=color] {
+  width: 4rem !important;
+  height: 4rem !important;
+  border-radius: 0 !important;
+}
+
+input {
+  border-radius: 2rem !important;
+  font-size: 1.7rem !important;
+}
+
+.new-Box div {
+  margin: auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
